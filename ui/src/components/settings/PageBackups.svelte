@@ -109,7 +109,7 @@
     <div class="wrapper">
         <div class="panel" autocomplete="off" on:submit|preventDefault={save}>
             <div class="flex m-b-sm flex-gap-10">
-                <span class="txt-xl">Backup and restore your PocketBase data</span>
+                <span class="txt-xl">备份和还原您的 PocketBase 数据</span>
                 <RefreshButton class="btn-sm" tooltip={"Refresh"} on:refresh={refreshList} />
                 <BackupUploadButton class="btn-sm" on:success={refreshList} />
             </div>
@@ -125,7 +125,7 @@
                 disabled={isLoading}
                 on:click={() => (showBackupsSettings = !showBackupsSettings)}
             >
-                <span class="txt">Backups options</span>
+                <span class="txt">备份选项</span>
                 {#if showBackupsSettings}
                     <i class="ri-arrow-up-s-line" />
                 {:else}

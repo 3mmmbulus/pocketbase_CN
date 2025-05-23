@@ -173,7 +173,7 @@
                 </div>
             {:else}
                 <div class="list-item list-item-placeholder">
-                    <span class="txt">No backups yet.</span>
+                    <span class="txt">尚无备份.</span>
                 </div>
             {/each}
         {/if}
@@ -188,10 +188,10 @@
         >
             {#if canBackup}
                 <i class="ri-play-circle-line" />
-                <span class="txt">Initialize new backup</span>
+                <span class="txt">初始化新备份</span>
             {:else}
                 <span class="loader loader-sm" />
-                <span class="txt">Backup/restore operation is in process</span>
+                <span class="txt">备份/恢复操作正在进行中...</span>
             {/if}
         </button>
     </div>

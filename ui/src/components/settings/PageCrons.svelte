@@ -111,23 +111,25 @@
             </div>
 
             <p class="txt-hint m-t-xs">
-                App cron jobs can be registered only programmatically with
-                <a
-                    href="{import.meta.env.PB_DOCS_URL}/go-jobs-scheduling/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Go
-                </a>
-                or
-                <a
-                    href="{import.meta.env.PB_DOCS_URL}/js-jobs-scheduling/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    JavaScript
-                </a>.
-            </p>
+    应用的定时任务只能通过
+    <a
+        href="{import.meta.env.PB_DOCS_URL}/go-jobs-scheduling/"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Go
+    </a>
+    或
+    <a
+        href="{import.meta.env.PB_DOCS_URL}/js-jobs-scheduling/"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        JavaScript
+    </a>
+    以编程方式注册。
+</p>
+
         </div>
     </div>
 </PageWrapper>

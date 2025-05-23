@@ -124,7 +124,7 @@
                                     checked={areAllSelected}
                                     on:change={() => toggleSelectAll()}
                                 />
-                                <label for={uniqueId}>Select all</label>
+                                <label for={uniqueId}>选择全部</label>
                             </Field>
                         </div>
                         {#each collections as collection (collection.id)}
@@ -166,7 +166,7 @@
                             disabled={!totalBulkSelected}
                             on:click={() => copy()}
                         >
-                            <span class="txt">Copy</span>
+                            <span class="txt">复制</span>
                         </button>
 
                         <pre class="code-wrapper">{schema}</pre>

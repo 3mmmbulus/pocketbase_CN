@@ -90,10 +90,9 @@
     <div class="wrapper">
         <form class="panel" autocomplete="off" on:submit|preventDefault={() => save()}>
             <div class="content txt-xl m-b-base">
-                <p>By default PocketBase uses the local file system to store uploaded files.</p>
-                <p>
-                    If you have limited disk space, you could optionally connect to an S3 compatible storage.
-                </p>
+                <p>默认情况下，PocketBase 使用本地文件系统来存储上传的文件。</p>
+<p>如果您的磁盘空间有限，也可以选择连接到兼容 S3 的存储服务。</p>
+<p>如果您在本地运行 PocketBase，您可以使用 MinIO 来模拟 S3 存储。</p>
             </div>
 
             {#if isLoading}

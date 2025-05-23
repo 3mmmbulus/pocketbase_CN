@@ -7,7 +7,7 @@
 
 <PageSidebar class="settings-sidebar">
     <div class="sidebar-content">
-        <div class="sidebar-title">System</div>
+        <div class="sidebar-title">系统</div>
         <a href="/settings" class="sidebar-list-item" use:active={{ path: "/settings" }} use:link>
             <i class="ri-home-gear-line" aria-hidden="true" />
             <span class="txt">应用</span>
@@ -46,12 +46,12 @@
             use:link
         >
             <i class="ri-time-line" aria-hidden="true"></i>
-            <span class="txt">Crons</span>
+            <span class="txt">定时任务</span>
         </a>
 
         {#if !$hideControls}
             <div class="sidebar-title">
-                <span class="txt">Sync</span>
+                <span class="txt">同步</span>
             </div>
             <a
                 href="/settings/export-collections"

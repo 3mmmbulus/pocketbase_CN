@@ -70,7 +70,7 @@
                 type="button"
                 aria-label="Logs settings"
                 class="btn btn-transparent btn-circle"
-                use:tooltip={{ text: "Logs settings", position: "right" }}
+                use:tooltip={{ text: "日志设置", position: "right" }}
                 on:click={() => logsSettingsPanel?.show()}
             >
                 <i class="ri-settings-4-line" />
@@ -90,7 +90,7 @@
 
         <Searchbar
             value={filter}
-            placeholder="Search term or filter like `level > 0 && data.auth = 'guest'`"
+            placeholder="搜索词或筛选条件，例如：level > 0 && data.auth = 'guest'"
             extraAutocompleteKeys={["level", "message", "data."]}
             on:submit={(e) => (filter = e.detail)}
         />

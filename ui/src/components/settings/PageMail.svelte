@@ -104,7 +104,7 @@
     <div class="wrapper">
         <form class="panel" autocomplete="off" on:submit|preventDefault={() => save()}>
             <div class="content txt-xl m-b-base">
-                <p>Configure common settings for sending emails.</p>
+                <p>配置发送邮件的常用设置.</p>
             </div>
 
             {#if isLoading}
