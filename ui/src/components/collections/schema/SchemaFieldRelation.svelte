@@ -79,7 +79,7 @@
                         on:click={() => upsertPanel?.show()}
                     >
                         <i class="ri-add-line" />
-                        <span class="txt">New collection</span>
+                        <span class="txt">新建数据库表</span>
                     </button>
                 </svelte:fragment>
             </ObjectSelect>

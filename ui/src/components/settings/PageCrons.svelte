@@ -103,7 +103,7 @@
                             </div>
                         {:else}
                             <div class="list-item list-item-placeholder">
-                                <span class="txt">No app crons found.</span>
+                                <span class="txt">未找到应用定时任务.</span>
                             </div>
                         {/each}
                     {/if}

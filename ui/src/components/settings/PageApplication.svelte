@@ -173,8 +173,8 @@
 <PageWrapper>
     <header class="page-header">
         <nav class="breadcrumbs">
-            <div class="breadcrumb-item">Settings</div>
-            <div class="breadcrumb-item">Application</div>
+            <div class="breadcrumb-item">设置</div>
+            <div class="breadcrumb-item">应用</div>
         </nav>
     </header>
 

@@ -87,7 +87,7 @@
 
 <OverlayPanel bind:this={panel} popup class="superuser-panel" beforeHide={() => !isSaving} on:hide on:show>
     <svelte:fragment slot="header">
-        <h4>Logs settings</h4>
+        <h4>日志设置</h4>
     </svelte:fragment>
 
     {#if isLoading}
@@ -97,7 +97,7 @@
     {:else}
         <form id={formId} class="grid" autocomplete="off" on:submit|preventDefault={save}>
             <Field class="form-field required" name="logs.maxDays" let:uniqueId>
-                <label for={uniqueId}>Max days retention</label>
+                <label for={uniqueId}>最长保留天数</label>
                 <input type="number" id={uniqueId} required bind:value={formSettings.logs.maxDays} />
                 <div class="help-block">
                     Set to <code>0</code> to disable logs persistence.
@@ -127,7 +127,7 @@
 
     <svelte:fragment slot="footer">
         <button type="button" class="btn btn-transparent" disabled={isSaving} on:click={hide}>
-            <span class="txt">Cancel</span>
+            <span class="txt">取消</span>
         </button>
         <button
             type="submit"
@@ -136,7 +136,7 @@
             class:btn-loading={isSaving}
             disabled={!hasChanges || isSaving}
         >
-            <span class="txt">Save changes</span>
+            <span class="txt">保存更改</span>
         </button>
     </svelte:fragment>
 </OverlayPanel>
