@@ -197,8 +197,8 @@
 
 <div class="chart-wrapper" class:loading={isLoading}>
     <div class="total-logs entrance-right" class:hidden={isLoading}>
-        Found {totalLogs}
-        {totalLogs == 1 ? "log" : "logs"}
+        找到 {totalLogs}
+        {totalLogs == 1 ? "条日志" : "条日志"}
     </div>
 
     {#if isLoading}

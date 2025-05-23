@@ -155,14 +155,14 @@
             {#if $hideControls}
                 <h1 class="m-b-10">You don't have any collections yet.</h1>
             {:else}
-                <h1 class="m-b-10">Create your first collection to add records!</h1>
+                <h1 class="m-b-10">创建您的第一个收藏集来添加记录！</h1>
                 <button
                     type="button"
                     class="btn btn-expanded-lg btn-lg"
                     on:click={() => collectionUpsertPanel?.show()}
                 >
                     <i class="ri-add-line" />
-                    <span class="txt">Create new collection</span>
+                    <span class="txt">创建新集合</span>
                 </button>
             {/if}
         </div>

@@ -83,7 +83,7 @@
             <div class="inline-flex">
                 <Field class="form-field form-field-toggle m-0" let:uniqueId>
                     <input type="checkbox" id={uniqueId} bind:checked={withSuperuserLogs} />
-                    <label for={uniqueId}>Include requests by superusers</label>
+                    <label for={uniqueId}>包括超级用户的请求</label>
                 </Field>
             </div>
         </header>

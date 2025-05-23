@@ -242,21 +242,21 @@
                 <SortHeader disable class="col-field-level min-width" name="level" bind:sort>
                     <div class="col-header-content">
                         <i class="ri-bookmark-line" />
-                        <span class="txt">level</span>
+                        <span class="txt">级别</span>
                     </div>
                 </SortHeader>
 
                 <SortHeader disable class="col-type-text col-field-message" name="data" bind:sort>
                     <div class="col-header-content">
                         <i class="ri-file-list-2-line" />
-                        <span class="txt">message</span>
+                        <span class="txt">信息</span>
                     </div>
                 </SortHeader>
 
                 <SortHeader disable class="col-type-date col-field-created" name="created" bind:sort>
                     <div class="col-header-content">
                         <i class={CommonHelper.getFieldTypeIcon("date")} />
-                        <span class="txt">created</span>
+                        <span class="txt">创建时间</span>
                     </div>
                 </SortHeader>
 
@@ -337,7 +337,7 @@
                 {:else}
                     <tr>
                         <td colspan="99" class="txt-center txt-hint p-xs">
-                            <h6>No logs found.</h6>
+                            <h6>未找到日志...</h6>
                             {#if filter?.length}
                                 <button
                                     type="button"

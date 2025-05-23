@@ -58,7 +58,7 @@
     <div class="wrapper">
         <div class="panel" autocomplete="off">
             <div class="flex m-b-sm flex-gap-10">
-                <span class="txt-xl">Registered app cron jobs</span>
+                <span class="txt-xl">已注册的应用定时任务</span>
                 <RefreshButton class="btn-sm" tooltip={"Refresh"} on:refresh={loadCrons} />
             </div>
 

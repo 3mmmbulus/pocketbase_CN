@@ -145,11 +145,11 @@
                         use:link
                     >
                         <i class="ri-shield-user-line" aria-hidden="true" />
-                        <span class="txt">Manage superusers</span>
+                        <span class="txt">管理超级用户</span>
                     </a>
                     <button type="button" class="dropdown-item closable" role="menuitem" on:click={logout}>
                         <i class="ri-logout-circle-line" aria-hidden="true" />
-                        <span class="txt">Logout</span>
+                        <span class="txt">退出登录</span>
                     </button>
                 </Toggler>
             </div>

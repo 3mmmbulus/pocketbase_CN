@@ -109,8 +109,7 @@
             {:else}
                 <div class="content txt-xl m-b-base">
                     <p>
-                        Below you'll find your current collections configuration that you could import in
-                        another PocketBase environment.
+                        您可以将下面的集合配置导出并导入到其他 PocketBase 项目中使用。
                     </p>
                 </div>
 

@@ -277,20 +277,21 @@
                     }}
                 />
 
-                <div class="content txt-xl m-b-base">
-                    <p>
-                        Paste below the collections configuration you want to import or
-                        <button
-                            class="btn btn-outline btn-sm m-l-5"
-                            class:btn-loading={isLoadingFile}
-                            on:click={() => {
-                                fileInput.click();
-                            }}
-                        >
-                            <span class="txt">Load from JSON file</span>
-                        </button>
-                    </p>
-                </div>
+<div class="content txt-xl m-b-base">
+    <p>
+        在下方粘贴您要导入的集合配置，或
+        <button
+            class="btn btn-outline btn-sm m-l-5"
+            class:btn-loading={isLoadingFile}
+            on:click={() => {
+                fileInput.click();
+            }}
+        >
+            <span class="txt">从 JSON 文件加载</span>
+        </button>
+    </p>
+</div>
+
 
                 <Field class="form-field {!isValid ? 'field-error' : ''}" name="collections" let:uniqueId>
                     <label for={uniqueId} class="p-b-10">Collections</label>
